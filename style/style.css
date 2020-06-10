@@ -25,6 +25,7 @@ body {
   height: calc(100vh - 45px);
   padding: 0;
 }
+
 .login {
   text-align: center;
 }
@@ -41,6 +42,7 @@ body {
 .main__img:hover {
   border: solid 0.09rem #ffffff;
 }
+
 ::-webkit-scrollbar {
   width: 1rem;
 }
@@ -74,6 +76,7 @@ body {
   text-transform: capitalize;
   padding: 0.8rem;
 }
+
 .footer a {
   text-decoration: none;
   color: #ffffff;
@@ -141,6 +144,7 @@ body {
 main {
   padding: 1.5rem;
 }
+
 .section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/casa.jpg');
   width: 100%;
@@ -153,7 +157,7 @@ main {
   align-items: center;
 }
 
-section > p {
+section>p {
   font-family: 'Lato', sans-serif;
   color: #ffffff;
   font-size: 0.7rem;
@@ -161,9 +165,11 @@ section > p {
   padding: 0.5rem;
   font-weight: bold;
 }
-section > div {
+
+section>div {
   padding: 0.5rem;
 }
+
 button {
   width: 7rem;
   height: auto;
@@ -174,7 +180,7 @@ button {
   border: none;
 }
 
-button > span {
+button>span {
   font-size: 0.8rem;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -203,19 +209,23 @@ h3 {
   overflow-x: scroll;
   margin-top: 3rem;
 }
+
 .slide {
   flex-basis: 19rem;
-  margin: 0 0.9rem;
+  margin: 1rem;
   flex-shrink: 0;
 }
-article > img {
+
+.shows--img {
   width: 100%;
   height: auto;
-  margin-bottom: 2rem;
-  transition: transform ease-in-out 0.9s;
+  border: 0.15rem solid transparent;
+  transition: all ease-in-out 0.9s;
 }
-article > img:hover {
+
+.shows--img:hover {
   transform: scale(1.2);
+  border-color: #e50914;
 }
 
 .show {
